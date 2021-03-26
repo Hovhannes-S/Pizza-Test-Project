@@ -1,0 +1,15 @@
+.navbar-parent {
+    width: 100%;
+    min-height: 100vh;
+}
+#my-navbar {
+    padding: 10px 350px !Important;
+    background-color: black !Important;
+    /* padding: 0 20px ; */
+}
+#my-navbar li a {
+    color: white ;
+}
+#my-navbar li:hover a {
+    color: orange;
+}

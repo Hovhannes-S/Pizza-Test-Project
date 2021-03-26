@@ -1,0 +1,51 @@
+.page-pizza {
+    background-color: rgb(230 227 227);
+    min-height: 100vh;
+}
+.parent-pizza-image {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url('https://miro.medium.com/max/3840/1*W75bJ4jA9Zfy_wyeD80vmA.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.pizza-description-image-block {
+    width: 400px;
+    height: 380px;
+    border: 3px solid rgb(207, 161, 76);
+    position: relative;
+    left: 100px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.pizza-description-image-block h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+}
+.pizza-description-image-block p {
+    font-family: 'Courgette', cursive;
+    color:white;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.view-menu-btn {
+    display: block;
+    margin: 100px auto 0;
+    width: 50%;
+}
+.pizzas-all-carts-block {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}

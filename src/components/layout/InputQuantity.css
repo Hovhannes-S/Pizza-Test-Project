@@ -1,0 +1,14 @@
+.quantity-pizza-parent-block{
+    width: 15%;
+    border-top: 1px dashed black;
+    padding: 10px 5px;
+}
+.label-quantity-pizzas {
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#quantity {
+    display: block;
+}
